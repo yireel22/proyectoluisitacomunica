@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="proyectoluisitacomunica.DetalleMetricaPage"
+             BackgroundColor="#121212">
+
+    <VerticalStackLayout Padding="25" Spacing="20" HorizontalOptions="Center" VerticalOptions="Center">
+
+        <Label x:Name="lblTituloHistorial" FontSize="24" FontAttributes="Bold" HorizontalTextAlignment="Center" />
+
+        <Entry x:Name="txtValor" PlaceholderColor="Gray" TextColor="White" WidthRequest="250" HorizontalTextAlignment="Center" />
+
+        <Button x:Name="btnGuardar" Text="Guardar registro" TextColor="Black" FontAttributes="Bold" Clicked="OnGuardarClicked" />
+
+        <Button Text="Cancelar" BackgroundColor="Transparent" TextColor="Gray" Clicked="OnVolverClicked" />
+
+    </VerticalStackLayout>
+</ContentPage>
